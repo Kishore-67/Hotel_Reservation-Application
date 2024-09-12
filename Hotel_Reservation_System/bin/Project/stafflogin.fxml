@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.login">
+   <center>
+      <AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #14213D;" stylesheets="@logindesign.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="40.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="288.0" fitWidth="333.0" layoutX="53.0" layoutY="131.0">
+               <image>
+                  <Image url="@../image/Screenshot%202023-12-06%20121435.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="438.0" layoutY="17.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="447.0" style="-fx-background-color: #FFFFFF;" stylesheets="@logindesign.css">
+               <children>
+                  <Label layoutX="151.0" layoutY="172.0" prefHeight="28.0" prefWidth="181.0" text="STAFF LOGIN" textFill="#cfa40e">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="username" layoutX="151.0" layoutY="263.0" prefHeight="39.0" prefWidth="248.0" promptText="USERNAME" />
+                  <PasswordField fx:id="password" layoutX="151.0" layoutY="338.0" prefHeight="39.0" prefWidth="248.0" promptText="PASSWORD" />
+                  <Button layoutX="116.0" layoutY="432.0" mnemonicParsing="false" onAction="#userlogin" prefHeight="40.0" prefWidth="250.0" style="-fx-background-color: #CFA40E;" text="Login" textFill="#14213d">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="invalidlogin" layoutX="140.0" layoutY="215.0" prefHeight="35.0" prefWidth="202.0" textFill="#cfa40e">
+                     <font>
+                        <Font name="Calibri Bold" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="159.0" fitWidth="152.0" layoutX="148.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/Screenshot%202023-12-06%20164432.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="381.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #14213D;" textFill="#cfa40e" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+                     <graphic>
+                        <FontAwesomeIcon fill="#cfa40e" glyphName="CLOSE" selectionFill="BLACK" size="1.2em" textAlignment="CENTER" wrappingWidth="45.42844843864441" />
+                     </graphic>
+                  </Button>
+                  <FontAwesomeIcon fill="#cfa40e" glyphName="USER" layoutX="81.0" layoutY="300.0" size="4em" wrappingWidth="36.79998779296875" />
+                  <FontAwesomeIcon fill="#cfa40e" glyphName="LOCK" layoutX="84.0" layoutY="374.0" size="4em" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

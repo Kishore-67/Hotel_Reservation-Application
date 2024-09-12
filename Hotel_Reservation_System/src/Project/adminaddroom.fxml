@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" >
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <BorderPane layoutX="83.0" layoutY="89.0" prefHeight="600.0" prefWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <top>
+                  <AnchorPane prefHeight="45.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+               </top>
+               <left>
+                  <AnchorPane prefHeight="554.0" prefWidth="218.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane layoutY="-54.0" prefHeight="612.0" prefWidth="238.0" style="-fx-background-color: #14213d;" AnchorPane.bottomAnchor="-4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-19.0" AnchorPane.topAnchor="-54.0">
+                           <children>
+                              <Label alignment="CENTER" layoutX="53.0" layoutY="192.0" prefHeight="18.0" prefWidth="131.0" text="ADD STAFF" textFill="#cfa40e">
+                                 <font>
+                                    <Font name="Arial Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                              <Button layoutX="37.0" layoutY="268.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="163.0" style="-fx-background-color: #CEA40E;" text="HOME" textFill="#14213d">
+                                 <font>
+                                    <Font name="Calibri Bold" size="14.0" />
+                                 </font>
+                                 <graphic>
+                                    <FontAwesomeIcon fill="#14213d" glyphName="HOME" size="1.5em" text="" />
+                                 </graphic>
+                              </Button>
+                              <Line endX="27.29288101196289" endY="0.5929176211357117" layoutX="179.0" layoutY="226.0" scaleY="2.0" startX="-147.1999969482422" startY="0.5929107666015625" stroke="#cfa40e" />
+                              <FontAwesomeIcon fill="#cfa40e" glyphName="USER_PLUS" layoutX="71.0" layoutY="149.0" size="8em" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </left>
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane layoutX="7.0" layoutY="6.0" prefHeight="542.0" prefWidth="887.0">
+                           <children>
+                              <AnchorPane layoutY="8.0" prefHeight="546.0" prefWidth="890.0">
+                                 <children>
+                                    <Button layoutX="416.0" layoutY="453.0" mnemonicParsing="false" onAction="#addroom" prefHeight="46.0" prefWidth="123.0" style="-fx-background-color: #14213D;" text="ADD" textFill="#cfa40e">
+                                       <font>
+                                          <Font name="Calibri Bold" size="18.0" />
+                                       </font>
+                                       <graphic>
+                                          <FontAwesomeIcon fill="#cfa40e" glyphName="PLUS" size="1.3em" text="" />
+                                       </graphic>
+                                    </Button>
+                                    <Label layoutX="59.0" layoutY="71.0" text="ROOM NO" textFill="#14213d">
+                                       <font>
+                                          <Font name="Calibri Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="59.0" layoutY="158.0" text="ROOM TYPE" textFill="#14213d">
+                                       <font>
+                                          <Font name="Calibri Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField  layoutX="180.0" layoutY="62.0" prefHeight="39.0" prefWidth="235.0" />
+                                    <TextField  layoutX="180.0" layoutY="149.0" prefHeight="39.0" prefWidth="235.0" />
+                                    <Label layoutX="59.0" layoutY="242.0" text="AC/NON-AC" textFill="#14213d">
+                                       <font>
+                                          <Font name="Calibri Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField layoutX="180.0" layoutY="233.0" prefHeight="39.0" prefWidth="235.0" />
+                                    <Label layoutX="59.0" layoutY="321.0" text="ROOM RENT" textFill="#14213d">
+                                       <font>
+                                          <Font name="Calibri Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField  layoutX="180.0" layoutY="312.0" prefHeight="39.0" prefWidth="235.0" />
+                                    <Label  alignment="CENTER" layoutX="333.0" layoutY="14.0" prefHeight="34.0" prefWidth="287.0" textFill="#cfa40e">
+                                       <font>
+                                          <Font name="Calibri Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="59.0" layoutY="391.0" text="AVAILABILITY" textFill="#14213d">
+                                       <font>
+                                          <Font name="Calibri Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField  layoutX="180.0" layoutY="383.0" prefHeight="39.0" prefWidth="235.0" />
+                                 </children></AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

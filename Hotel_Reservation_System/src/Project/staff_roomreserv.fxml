@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <BorderPane layoutX="83.0" layoutY="89.0" prefHeight="600.0" prefWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <left>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane prefHeight="610.0" prefWidth="200.0" style="-fx-background-color: #14213d;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Label alignment="CENTER" layoutX="7.0" layoutY="186.0" prefHeight="20.0" prefWidth="186.0" text="ROOM RESERVATION" textFill="#cfa40e">
+                                 <font>
+                                    <Font name="Arial Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                              <Button layoutX="18.0" layoutY="280.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="163.0" style="-fx-background-color: #CEA40E;" text="HOME" textFill="#14213d">
+                                 <font>
+                                    <Font name="Calibri Bold" size="14.0" />
+                                 </font>
+                                 <graphic>
+                                    <FontAwesomeIcon fill="#14213d" glyphName="HOME" size="1.5em" />
+                                 </graphic>
+                              </Button>
+                              <Line endX="27.29288101196289" endY="0.5929176211357117" layoutX="160.0" layoutY="214.0" scaleY="2.0" startX="-147.1999969482422" startY="0.5929107666015625" stroke="#cfa40e" />
+                              <FontAwesomeIcon fill="#cfa40e" glyphName="HOTEL" layoutX="42.0" layoutY="144.0" size="8em" wrappingWidth="115.31429290771484" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </left>
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane layoutX="7.0" layoutY="6.0" prefHeight="542.0" prefWidth="887.0">
+                           <children>
+                              <AnchorPane layoutY="-7.0" prefHeight="609.0" prefWidth="890.0">
+                                 <children>
+                                    <AnchorPane layoutX="14.0" layoutY="69.0" prefHeight="514.0" prefWidth="278.0" style="-fx-background-color: #14213D;">
+                                       <children>
+                                          <Label layoutX="22.0" layoutY="38.0" text="GUEST ID :" textFill="#cfa40e">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField layoutX="90.0" layoutY="35.0" prefHeight="26.0" prefWidth="170.0" />
+                                          <Label layoutX="20.0" layoutY="109.0" text="NAME :" textFill="#cfa40e">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField layoutX="88.0" layoutY="106.0" prefHeight="26.0" prefWidth="170.0" />
+                                          <Label layoutX="22.0" layoutY="178.0" text="ROOM NO:" textFill="#cfa40e">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField layoutX="96.0" layoutY="175.0" prefHeight="26.0" prefWidth="164.0" />
+                                          <Label layoutX="21.0" layoutY="243.0" text="EMAIL :" textFill="#cfa40e">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField layoutX="89.0" layoutY="240.0" prefHeight="26.0" prefWidth="170.0" />
+                                          <Label layoutX="19.0" layoutY="312.0" text="ADDRESS:" textFill="#cfa40e">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField layoutX="93.0" layoutY="309.0" prefHeight="26.0" prefWidth="164.0" />
+                                          <Label layoutX="20.0" layoutY="371.0" text="PHONE NO :" textFill="#cfa40e">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField layoutX="99.0" layoutY="368.0" prefHeight="26.0" prefWidth="159.0" />
+                                          <Button layoutX="30.0" layoutY="461.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="212.0" style="-fx-background-color: #CFA40E;" text="BOOK" textFill="#14213d">
+                                             <font>
+                                                <Font name="Calibri Bold" size="18.0" />
+                                             </font>
+                                             <graphic>
+                                                <FontAwesomeIcon fill="#14213d" glyphName="HOTEL" />
+                                             </graphic>
+                                          </Button>
+                                          <Label layoutX="20.0" layoutY="428.0" text="PAYMENT METHOD :" textFill="#cfa40e">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Label>
+                                          <ChoiceBox layoutX="152.0" layoutY="425.0" prefHeight="26.0" prefWidth="112.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <TreeTableView layoutX="313.0" layoutY="68.0" prefHeight="514.0" prefWidth="568.0" style="-fx-border-color: #CFA40E; -fx-border-width: 4;">
+                                       <columns>
+                                          <TreeTableColumn prefWidth="88.0" text="ROOM NO" />
+                                          <TreeTableColumn prefWidth="128.79998779296875" text="ROOOM TYPE" />
+                                          <TreeTableColumn prefWidth="105.60003662109375" text="AC/NONAC" />
+                                          <TreeTableColumn minWidth="0.0" prefWidth="104.79998779296875" text="RENT" />
+                                          <TreeTableColumn prefWidth="132.79998779296875" text="AVAILABILITY" />
+                                       </columns>
+                                    </TreeTableView>
+                                    <TextField layoutX="14.0" layoutY="25.0" prefHeight="34.0" prefWidth="378.0" promptText="SEARCH" style="-fx-border-color: #CFA40E; -fx-border-width: 4;" />
+                                    <FontAwesomeIcon glyphName="SEARCH" layoutX="366.0" layoutY="48.0" size="1.5em" />
+                                    <Button layoutX="785.0" layoutY="29.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #14213D;">
+                                       <graphic>
+                                          <FontAwesomeIcon fill="#cfa40e" glyphName="CLOSE" size="1.5em" />
+                                       </graphic>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

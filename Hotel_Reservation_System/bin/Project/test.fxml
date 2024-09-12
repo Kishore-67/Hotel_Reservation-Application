@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1217.0" >
+   <center>
+      <AnchorPane fx:id="test1" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #14213D;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="235.0" layoutY="31.0" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT" size="34.0" />
+               </font>
+            </Label>
+            <TitledPane animated="false" layoutX="-1.0" prefHeight="27.0" prefWidth="1217.0" text="HOTEL DIAMOND">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+               <font>
+                  <Font name="Arial Italic" size="12.0" />
+               </font>
+            </TitledPane>
+            <TextField fx:id="test1" layoutX="534.0" layoutY="255.0" promptText="test" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
